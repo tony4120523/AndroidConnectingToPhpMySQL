@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\lala\\AndroidStudioProjects\\AndroidConnectingToPhpMySQL\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\lala\\AndroidStudioProjects\\AndroidConnectingToPhpMySQL\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\lala\\Desktop\\newtest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\lala\\Desktop\\newtest\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     }
