@@ -83,7 +83,7 @@ public class NewProductActivity extends Activity {
 			String name = inputName.getText().toString();
 			String price = inputPrice.getText().toString();
 			String description = inputDesc.getText().toString();
-
+			//Log.d("Test Error", name + description); is ok!!...
 			// Building Parameters
 			List<NameValuePair> params = new ArrayList<NameValuePair>();
 			params.add(new BasicNameValuePair("name", name));

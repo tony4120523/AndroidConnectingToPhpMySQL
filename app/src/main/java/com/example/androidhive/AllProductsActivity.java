@@ -127,7 +127,7 @@ public class AllProductsActivity extends ListActivity {
 			JSONObject json = jParser.makeHttpRequest(url_all_products, "GET", params);
 			
 			// Check your log cat for JSON reponse
-			Log.d("All Products: ", json.toString());
+			Log.d("All Products: ", json.toString() +"中文");
 
 			try {
 				// Checking for SUCCESS TAG
@@ -145,6 +145,7 @@ public class AllProductsActivity extends ListActivity {
 						// Storing each json item in variable
 						String id = c.getString(TAG_PID);
 						String name = c.getString(TAG_NAME);
+						//Log.d("Try to figure out error", name);
 
 						// creating new HashMap
 						HashMap<String, String> map = new HashMap<String, String>();
